@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Hello Evi-chan",
+  "description": "Evi-chan creates cute page when you open new tab!",
+  "version": "1.0",
+  "icons": {
+    "16":  "images/evi@16.png",
+    "48":  "images/evi@48.png",
+    "128": "images/evi@128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/evi@16.png",
+      "24": "images/evi@24.png",
+      "32": "images/evi@32.png"
+    }
+  },
+  "chrome_url_overrides" : {
+    "newtab": "home.html"
+  },
+  "permissions": [ "tabs"]
+}

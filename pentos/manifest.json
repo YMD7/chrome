@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Hello Pentos",
+  "description": "Pentos creates cute page when you open new tab!",
+  "version": "1.0",
+  "icons": {
+    "16":  "images/pentos@16.png",
+    "48":  "images/pentos@48.png",
+    "128": "images/pentos@128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/pentos@16.png",
+      "24": "images/pentos@24.png",
+      "32": "images/pentos@32.png"
+    }
+  },
+  "chrome_url_overrides" : {
+    "newtab": "home.html"
+  },
+  "permissions": [ "tabs"]
+}
